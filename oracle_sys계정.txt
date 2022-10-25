@@ -1,0 +1,6 @@
+1. sqlplus "/as sysdba"
+
+2. create user [id] identified by 비밀번호;
+create user osh identified by 1234;
+
+3. grant connect, resource, dba to [id];
